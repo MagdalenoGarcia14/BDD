@@ -1,0 +1,3 @@
+import socket, os
+
+print os.popen("mysqldump --user=root --password=Pass123 empresa > /home/garcia/Documentos/Respaldo/respaldo5.sql")
